@@ -37,7 +37,7 @@
       </v-container>
     </main>
     <v-footer :fixed="fixed">
-      <span>&copy; 2017</span>
+      <span>&copy; 2017 Daksh Miglani</span>
     </v-footer>
   </v-app>
 </template>
