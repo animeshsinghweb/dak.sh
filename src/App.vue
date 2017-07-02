@@ -72,7 +72,11 @@
   @import './stylus/main'
   img
     border-radius 50%;
-    width 17%;
+    width 19%;
+  @media (max-width: 576px)
+    img
+      width: 40%;
+
   .beWhite
     color #fff !important
 </style>

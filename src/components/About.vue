@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: 'home',
+  name: 'about',
   data () {
     return {
     }

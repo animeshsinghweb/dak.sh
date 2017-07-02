@@ -1,6 +1,6 @@
 <template>
   <div>
-  <h2>Hello, I'm Daksh.</h2>
+  <h2 id="mainh">Hello, I'm Daksh.</h2>
   <div class="v2">
     <p>I'm a 15 Year Old Wizard, Who uses Python-JavaScript and C++ for Magic. I'm also a Deep-Learning Student and a Space Enthusaist.</p>
   </div>
@@ -49,7 +49,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-  h2 {
+  #mainh {
     color: #263238 !important;
     font-size: 50px;
     text-align: center;
@@ -64,6 +64,9 @@ export default {
   @media (max-width: 576px) {
     .v2 {
       width: 90vw;
+    }
+    #mainh {
+      font-size: 40px
     }
   }
   .ico {
