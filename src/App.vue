@@ -12,7 +12,7 @@
           @click="openLink(item.link)">
           <v-list-tile value="true">
             <v-list-tile-action>
-              <v-icon light v-html="item.icon"></v-icon>
+              <v-icon light v-html="item.icon" class="beWhite"></v-icon>
             </v-list-tile-action>
             <v-list-tile-content>
               <v-list-tile-title v-text="item.title"></v-list-tile-title>
