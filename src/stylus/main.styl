@@ -1,2 +1,12 @@
 /** Stylus Styles */
+@require '../node_modules/vuetify/src/stylus/settings/_colors.styl'
+$theme := {
+  primary: rgb(33,150,243)
+  accent: #FFC107
+  secondary: rgb(63, 81, 181)
+  info: #B2DFDB
+  warning: $red.base
+  error: $red.base
+  success: $green.base
+}
 @import '../../node_modules/vuetify/src/stylus/main'
