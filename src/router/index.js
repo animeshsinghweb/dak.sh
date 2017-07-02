@@ -23,6 +23,10 @@ export default new Router({
       path: '/work',
       name: 'Work',
       component: Work
+    },
+    {
+      path: '*',
+      redirect: '/'
     }
   ]
 })
