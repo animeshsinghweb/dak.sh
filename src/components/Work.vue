@@ -22,7 +22,7 @@ export default {
         repos: [],
         api: {
           user: 'https://api.github.com/users/DakshMiglani',
-          repos: 'https://api.github.com/users/DakshMiglani/repos?per_page=100'
+          repos: 'https://api.github.com/users/DakshMiglani/repos?per_page=100&page='
         }
     }
   },
@@ -41,21 +41,20 @@ export default {
         this.showErr = true
       })
     },
-  	getRepos: function() {
-  		this.$http.get(this.api.repos).then(function(data) {
-  			if(data.status === 200 && data.ok === true) {
-  				// show that it worked 
-		        for(var i in data.body) {
-		          if(data.body[i].fork !== true) {
-		            this.repos.push(data.body[i])
-		          }
-		        }
-            // if(data.body)
-  			}
-  		}, function(err) {
-  			this.showErr = true
-  		})
-  	}
+    getRepos: (pageNumber) => {
+      for(let i = 0; i < pageNumber; i++) {
+        this.$http.get(this.api.repos+i).then((data) => {
+          
+          for(var j in data.body) {
+            if(data.body[j].fork !== true) {
+              this.repos.push(data.body[j])
+            }
+          }
+        }, (err) => {
+          this.showErr = true
+        })
+      }
+    }
   },
   created() {
     this.getRepos()
