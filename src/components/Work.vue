@@ -21,8 +21,8 @@ export default {
         showErr: false,
         repos: [],
         api: {
-          user: 'https://api.github.com/users/DakshMiglani',
-          repos: 'https://api.github.com/users/DakshMiglani/repos?per_page=100&page='
+          repos: 'https://api.github.com/users/DakshMiglani/repos?per_page=100&page=',
+          user: 'https://api.github.com/users/DakshMiglani'
         }
     }
   },
@@ -30,34 +30,33 @@ export default {
     openLink: (l) => {
       window.open(l, '_blank')
     },
-    getUsers: () => {
-      this.$http.get(this.api.users).then((data) => {
-        if(data.public_repos > 100) {
+    getUser: function() {
+      this.$http.get(this.api.user).then(function(data) {
+        if(data.body.public_repos < 100) {
           this.getRepos(1)
         } else {
-          this.getRepos(Math.round(data.public_repos / 100))
+          this.getRepos(Math.round(data.body.public_repos / 100))
         }
-      }, (err) => {
+      }, function(err) {
         this.showErr = true
       })
     },
-    getRepos: (pageNumber) => {
-      for(let i = 0; i < pageNumber; i++) {
-        this.$http.get(this.api.repos+i).then((data) => {
-          
-          for(var j in data.body) {
+    getRepos: function(p) {
+      for(let i = 0; i < p; i++) {
+        this.$http.get(this.api.repos+i).then(function(data) {
+          for(var j = 0; j < data.body.length; j++) {
             if(data.body[j].fork !== true) {
               this.repos.push(data.body[j])
             }
           }
-        }, (err) => {
+        }, function(err) {
           this.showErr = true
         })
       }
     }
   },
   created() {
-    this.getRepos()
+    this.getUser()
   }
 }
 </script>
