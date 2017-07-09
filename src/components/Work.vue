@@ -30,7 +30,7 @@ export default {
     openLink: (l) => {
       window.open(l, '_blank')
     },
-    getUsers: function() {
+    getUsers: () => {
       this.$http.get(this.api.users).then((data) => {
         if(data.public_repos > 100) {
           this.getRepos(1)
