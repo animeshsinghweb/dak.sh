@@ -20,15 +20,29 @@ export default {
     return {
         showErr: false,
         repos: [],
-        api: 'https://api.github.com/users/DakshMiglani/repos'
+        api: {
+          user: 'https://api.github.com/users/DakshMiglani',
+          repos: 'https://api.github.com/users/DakshMiglani/repos?per_page=100'
+        }
     }
   },
   methods: {
     openLink: (l) => {
       window.open(l, '_blank')
     },
+    getUsers: function() {
+      this.$http.get(this.api.users).then((data) => {
+        if(data.public_repos > 100) {
+          this.getRepos(1)
+        } else {
+          this.getRepos(Math.round(data.public_repos / 100))
+        }
+      }, (err) => {
+        this.showErr = true
+      })
+    },
   	getRepos: function() {
-  		this.$http.get(this.api).then(function(data) {
+  		this.$http.get(this.api.repos).then(function(data) {
   			if(data.status === 200 && data.ok === true) {
   				// show that it worked 
 		        for(var i in data.body) {
@@ -36,7 +50,7 @@ export default {
 		            this.repos.push(data.body[i])
 		          }
 		        }
-		        console.log(data)
+            // if(data.body)
   			}
   		}, function(err) {
   			this.showErr = true
