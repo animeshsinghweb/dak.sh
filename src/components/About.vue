@@ -3,13 +3,13 @@
   <h2>About, Me.</h2>
   <div class="v2">
     <p>
-      Hello There, I'm Daksh. A 15 (16 on 13th July 2017) Year Old, who loves to program. I actually didn't know what to do since I was a kid and I never matched with people nearby with me. I mean People will always be calling me outside to play with them, I usually didn't go with them and When you stop ignoring people, They start bullying you and I was bullied my entire life.
+      Hello There, I'm Daksh. A 15 (16 on 13th July 2017) Year Old, who loves to program. I actually didn't know what to do since I was a kid and I did never match-up with people who were nearby. I mean People always were calling me outside to play with them, I usually didn't go with them and When you stop ignoring people, They start bullying you and I was bullied my entire life.
     </p>
     <p>
-      My Dad was always a great guy being supportive to me and he got me my first computer when I was a small-little kid, and when you get something new you get fairly excited and the excitement doesn't stay much longer but for me that wasn't the case, to this day I love computers and I get excited when I see computers lying around my room.
+      My Dad was always a great guy, he always was supportive to me and I got my first computer because of him at a really young age, and when you get something new you get fairly excited and that excitement doesn't stay long but for me that wasn't the case, to this day I love computers and I get excited when I see computers lying around my room.
     </p>
     <p>
-      I Started Programming in the early days and by that time I didn't know how all these things work and I could actually do something from it. So I started writing code in the most basic languages for kids such as <a href="https://scratch.mit.edu" target="_blank">Scratch</a>, <a href="https://en.wikipedia.org/wiki/QBasic" target="_blank">QBasic</a> and <a href="https://turtleacademy.com" target="_blank">The Logo (Turtle Language)</a>. While these languages didn't really allow me to build amazing things that I build to this day but they gave me a ground of what computers can do and what they can be made to do.
+      I Started Programming in the early days and by that time I didn't know how all these things work and I didn't know what t o use my computer for. Luckily I had Internet Access, So I started writing code in the most basic languages for kids such as <a href="https://scratch.mit.edu" target="_blank">Scratch</a>, <a href="https://en.wikipedia.org/wiki/QBasic" target="_blank">QBasic</a> and <a href="https://turtleacademy.com" target="_blank">The Logo (Turtle Language)</a>. While these languages didn't really allow me to build amazing things that I build to this day but they gave me a ground of what computers can do and what they can be made to do.
     </p>
     <p>
       My Mom and Dad didn't like that either, they prefered taking the hard-way and got me into a boarding school for a few months and about the love for technology, it never stopped me and I eventually came back and started writing code and
@@ -22,7 +22,7 @@
       Then one day, I found out about <a href="https://www.python.org" target="_blank">Python</a> and Damn! That was the best day of my life, Cause that's the language which had some grounds and I could easily program things with it whether they be web-apps (dynamic) or just simple desktop apps but Python had a lot of potential because It could be used anywhere and It was just a hell of a perfect Language and I loved it the most and Actually Python Got me into Web-Development.
     </p>
     <p>
-      I had some bad experiences then and was bullied a lot by some big YouTubers, I won't disclose the names either but they bullied me all together and It just felt like Why am I even alive and they did it in a way that got me into hard time, call it depression but sooner or later I found out <a href="https://nodejs.org" target="_blank">Node.js</a>, this thing was the future of Web-Tech and I got myself into it.
+      I had some bad experiences after that and was bullied a lot by some big YouTubers who loved creating fun of me. Just because I had some fun talking personally to them. I won't disclose the names either but they bullied me all together and It just felt like Why am I even alive and they did it in a way that got me into hard time, but sooner or later I found out <a href="https://nodejs.org" target="_blank">Node.js</a>, this thing was the future of Web-Tech and I got myself into it.
     </p>
     <p>
       With Node.js making applications was so damn easy and in a User-Friendly way I was able to build some cool things and that allowed me to get into loving node.js for a year and then one day I heard about build mobile apps and desktop apps with Node.js and that told me that I chose the right stack and Now I was able to build Cross-Platform Apps Easily. I built some really powerful tools that actually helped people do some cool stuff.     
