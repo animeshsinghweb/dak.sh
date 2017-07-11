@@ -6,7 +6,7 @@
       Hello There, I'm Daksh. A 15 (16 on 13th July 2017) Year Old, who loves to program. I actually didn't know what to do since I was a kid and I never matched with people nearby with me. I mean People will always be calling me outside to play with them, I usually didn't go with them and When you stop ignoring people, They start bullying you and I was bullied my entire life.
     </p>
     <p>
-      My Dad was always a grat guy being supportive to me and he got me my first computer when I was a small-little kid, and when you get something new you get fairly excited and the excitement doesn't stay much longer but for me that wasn't the case, to this day I love computers and I get excited when I see computers lying around my room.
+      My Dad was always a great guy being supportive to me and he got me my first computer when I was a small-little kid, and when you get something new you get fairly excited and the excitement doesn't stay much longer but for me that wasn't the case, to this day I love computers and I get excited when I see computers lying around my room.
     </p>
     <p>
       I Started Programming in the early days and by that time I didn't know how all these things work and I could actually do something from it. So I started writing code in the most basic languages for kids such as <a href="https://scratch.mit.edu" target="_blank">Scratch</a>, <a href="https://en.wikipedia.org/wiki/QBasic" target="_blank">QBasic</a> and <a href="https://turtleacademy.com" target="_blank">The Logo (Turtle Language)</a>. While these languages didn't really allow me to build amazing things that I build to this day but they gave me a ground of what computers can do and what they can be made to do.
