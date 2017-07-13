@@ -3,7 +3,7 @@
   <h2>About, Me.</h2>
   <div class="v2">
     <p>
-      Hello There, I'm Daksh. A 15 (16 on 13th July 2017) Year Old, who loves to program. I actually didn't know what to do since I was a kid and I did never match-up with people who were nearby. I mean People always were calling me outside to play with them, I usually didn't go with them and When you stop ignoring people, They start bullying you and I was bullied my entire life.
+      Hello There, I'm Daksh. A 16 (as of 13th July 2017) Year Old, who loves to program. I actually didn't know what to do since I was a kid and I did never match-up with people who were nearby. I mean People always were calling me outside to play with them, I usually didn't go with them and When you stop ignoring people, They start bullying you and I was bullied my entire life.
     </p>
     <p>
       My Dad was always a great guy, he always was supportive to me and I got my first computer because of him at a really young age, and when you get something new you get fairly excited and that excitement doesn't stay long but for me that wasn't the case, to this day I love computers and I get excited when I see computers lying around my room.
@@ -34,7 +34,7 @@
       I started with a really handy library called <a href="http://scikit-learn.org/stable/index.html" target="_blank">Sci-Kit Learn</a> by Google, that allowed you to do most of the machine learning except Neural Networks and for neural networks I found google in 2015 was building something called <a href="https://www.tensorflow.org/" target="_blank">"Tensorflow"</a> and I started trying Tensorflow in the late 2016 and It actually came out to be really handy and built some really cool neural network algorithms such as Classifiers, Predicters, Computer Vision, etc and well that's where I was headed and started improving myself and I'm still getting there and I will eventually get there by working harder.
     </p>
     <p>
-      I Didn't expect this to happen that quickly but it did and the truth is time flies when you're working hard, I am in 11th Grade and I chose Physics, Chemistry, Computer Science and Mathematics as my primary subjects and I actually love all of them. I became a Full Stack Developer over a period of almost 6 years and now it feels like I made for it and my advice for every starter would always be Do whatever you love in life, It always pays well.
+      I Didn't expect this to happen that quickly but it did and the truth is time flies when you're working hard, I am in 11th Grade and I chose Physics, Chemistry, Computer Science and Mathematics as my primary subjects and I actually love all of them. I became a Full Stack Developer over a period of 6 years, I've been in love with computers for 9 years now, and now it feels like I made for it and my advice for every starter would always be Do whatever you love in life, It always pays well.
     </p>
   </div>
   </div>

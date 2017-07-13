@@ -2,7 +2,7 @@
   <div>
   <h2 id="mainh">Hello, I'm Daksh.</h2>
   <div class="v2">
-    <p>I'm a 15 Year Old Wizard, Who uses Python-JavaScript and C++ for Magic. I'm also a Deep-Learning Student and a Space Enthusaist.</p>
+    <p>I'm a 16 Year Old Wizard, Who uses Python-JavaScript and C++ for Magic. I'm also a Deep-Learning Student and a Space Enthusaist.</p>
   </div>
   <div class="v3">
      <v-icon medium fa dark class="ico" v-for="(item, i) in items" :key="i" @click="openLink(item.url)">{{item.name}}</v-icon>
