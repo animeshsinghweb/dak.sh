@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '@/components/Home'
 import About from '@/components/About'
 import Work from '@/components/Work'
+import Tools from '@/components/Tools'
 
 Vue.use(Router)
 
@@ -23,6 +24,11 @@ export default new Router({
       path: '/work',
       name: 'Work',
       component: Work
+    },
+    {
+        path: '/tools',
+        name: 'Tools',
+        component: Tools
     },
     {
       path: '*',

@@ -30,7 +30,7 @@
       <v-container fluid>
         <v-slide-y-transition mode="out-in">
           <v-layout column align-center>
-            <img src="/static/v.png" alt="Vuetify.js" class="mb-5" />
+            <img src="/static/v.png" alt="Vuetify.js" class="mb-5" id="dm" />
             <router-view></router-view>
           </v-layout>
         </v-slide-y-transition>

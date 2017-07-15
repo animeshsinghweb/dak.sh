@@ -4,7 +4,7 @@
   "category": "editor",
   "link": "https://atom.io/"
 }, {
-      "name": "Visual Studio Code",
+      "name": "VSCode",
       "icon": "https://code.visualstudio.com/images/favicon.ico",
       "category": "editor",
       "link": "https://code.visualstudio.com/"
@@ -35,7 +35,7 @@
     "category": "apps",
     "link": "https://www.nativescript.org/"
   }, {
-    "name": "Ionic Framework",
+    "name": "Ionic-Concept",
     "icon": "https://pbs.twimg.com/profile_images/834457277830541312/bYMCvtHD.jpg",
     "category": "apps",
     "link": "https://ionicframework.com/"
@@ -132,12 +132,12 @@
   }, {
     "name": "Github",
     "icon": "https://pbs.twimg.com/profile_images/616309728688238592/pBeeJQDQ.png",
-    "category": "VCS",
+    "category": "Git",
     "link": "https://github.com/"
   }, {
     "name": "Gitlab",
     "icon": "https://avatars2.githubusercontent.com/u/1086321?v=3&s=400",
-    "category": "VCS",
+    "category": "Git",
     "link": "https://gitlab.com"
   }
 ]
