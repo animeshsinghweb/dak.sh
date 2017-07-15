@@ -52,8 +52,9 @@
         items: [
           { icon: 'home', title: 'Home', link: '/' },
           { icon: 'info', title: 'About', link: '/about' },
+          { icon: 'gavel', title: 'Development Tools', link: '/tools'},
           { icon: 'bubble_chart', title: 'Blog', link: 'https://blog.dak.sh' },
-          { icon: 'gavel', title: 'Work', link: '/work' },
+          { icon: 'apps', title: 'Work', link: '/work' },
           { icon: 'widgets', title: 'Download CV', link: '/assets/daksh_cv.pdf' }
         ],
         right: true,
