@@ -20,7 +20,7 @@
     "link": "https://vuejs.org/"
   }, {
     "name": "Angular 4",
-    "icon": "http://blog.ninja-squad.com/assets/images/angular.png",
+    "icon": "/static/angular.png",
     "category": "frontend",
     "link": "https://angular.io/"
   },
@@ -76,7 +76,7 @@
     "link": "http://www.cplusplus.com/"
   }, {
     "name": "Node.js",
-    "icon": "http://bextlan.com/v4/themes/v4/img/cursos/nodejs.jpg",
+    "icon": "/static/nodejs.jpg",
     "category": "languages",
     "link": "https://nodejs.org/en/"
   }, {
@@ -101,22 +101,22 @@
     "link": "https://cordova.apache.org/"
   }, {
     "name": "Ubuntu",
-    "icon": "http://www.lffl.org/wp-content/uploads/2017/02/ubuntu-16.04.2.jpg",
+    "icon": "/static/ubuntu-16.04.2.jpg",
     "category": "linux",
     "link": "https://www.ubuntu.com/"
   }, {
     "name": "Fedora",
-    "icon": "http://www.unixstickers.com/image/cache/data/stickers/fedora/Fedora-logo-blue_hexagon.sh-600x600.png",
+    "icon": "/static/Fedora-logo-blue_hexagon.sh-600x600.png",
     "category": "linux",
     "link": "https://getfedora.org/"
   }, {
     "name": "Arch",
-    "icon": "http://www.unixstickers.com/image/data/stickers/archlinux/Arch.sh.png",
+    "icon": "/static/Arch.sh.png",
     "category": "linux",
     "link": "https://www.archlinux.org/"
   }, {
     "name": "Express",
-    "icon": "http://wwwhere.io/img/thumbs/express.jpg",
+    "icon": "/static/express.jpg",
     "category": "backend",
     "link": "https://expressjs.com/"
   }, {
