@@ -6,11 +6,11 @@
     </v-alert>
     <v-container fluid grid-list-xl>
       <v-layout row wrap>
-        <v-flex xs4 v-for="n in options" :key="n">
+        <v-flex xs4 v-for="n in options" :key="n" style="text-align: center;">
           <a :href="n.link" target="_blank">
           <v-card flat tile>
             <img :src="n.icon" class="images">
-            <v-card-title primary-title>
+            <v-card-title primary-title style="display: block;">
               <div>
                 <h3 class="headline mb-0">{{n.name}}</h3>
                 <div>
@@ -18,6 +18,7 @@
                 </div>
               </div>
             </v-card-title>
+            <br />
           </v-card>
           </a>
         </v-flex>
@@ -53,8 +54,8 @@ export default {
 
 <style scoped>
 .images {
-  height: 220px;
-  width: 220px;
+  height: 200px;
+  width: 200px;
 }
 .mb-0 {
   font-size: 150%;
